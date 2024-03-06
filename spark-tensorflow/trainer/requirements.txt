@@ -3,7 +3,7 @@ funcsigs==1.0.2
 html5lib==0.9999999
 Markdown==2.2.0
 mock==2.0.0
-numpy==1.13.0
+numpy==1.22.2
 pbr==3.0.1
 protobuf==3.3.0
 six==1.10.0
@@ -11,3 +11,6 @@ tensorflow==1.15.4
 Werkzeug==0.15.3
 google-cloud-core==0.27.1
 google-cloud-storage==1.4.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
